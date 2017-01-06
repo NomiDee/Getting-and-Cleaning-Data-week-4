@@ -6,7 +6,7 @@ The variables created for this code book are:
 * ACTIVITY  
 The name of the activity for the corresponding measurement  
 * ID  
-The identifier of the participant
+An identifier of the subject who carried out the experiment, as noted in the original `README.txt` file from [UCI Machine Learning Repository] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)
 
 The features selected for this database come the `features_info.txt` file included in the data zip file from [UCI Machine Learning Repository] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#). 
 
