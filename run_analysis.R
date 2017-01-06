@@ -57,3 +57,4 @@ tidymeans<-dcast(tidymeans, ID + activity ~ variable, mean)
 
 #Write the tidy data set to a new file.
 write.csv(tidymeans, "tidy.csv", row.names=FALSE)
+write.table(tidymeans, "tidy.txt", row.names=FALSE, sep="\t")
