@@ -2,12 +2,6 @@
 
 This code book defines the variables in `tidy.txt`.
 
-The variables created for this code book are:  
-* ACTIVITY  
-The name of the activity for the corresponding measurement  
-* ID  
-An identifier of the subject who carried out the experiment, as noted in the original `README.txt` file from [UCI Machine Learning Repository] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)
-
 The features selected for this database come the `features_info.txt` file included in the data zip file from [UCI Machine Learning Repository] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#). 
 
 The features come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
@@ -56,6 +50,12 @@ tBodyAccMean
 tBodyAccJerkMean  
 tBodyGyroMean  
 tBodyGyroJerkMean  
+
+Finally, there are 2 additional variables: 
+* ACTIVITY  
+The name of the activity for the corresponding measurement  
+* ID  
+An identifier of the subject who carried out the experiment, as noted in the original `README.txt` file from [UCI Machine Learning Repository] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)
 
 #Complete List of Variables in Tidy dataset
 * activity
